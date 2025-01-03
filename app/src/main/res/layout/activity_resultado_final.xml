@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/naval"
+    tools:context=".Activity_resultado_final">
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="preço"
+        android:layout_marginBottom="300dp"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_label_revisao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal"
+        android:text="revisão dos dados inseridos"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_label_preco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço"
+        android:layout_gravity="clip_horizontal"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tv_label_consumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consumo"
+        android:textColor="@color/white"
+        android:layout_gravity="clip_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/tv_label_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KM"
+        android:layout_gravity="clip_horizontal"
+        android:textColor="@color/white"
+
+        />
+</LinearLayout>

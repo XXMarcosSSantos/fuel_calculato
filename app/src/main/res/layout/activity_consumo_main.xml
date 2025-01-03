@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/naval"
+    tools:context=".Consumo_main">
+
+    <ImageView
+        android:id="@+id/imageView_consumo"
+        android:layout_width="264dp"
+        android:layout_height="383dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tela3_consumo_carro" />
+
+    <TextView
+        android:id="@+id/textView_consumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consumo do carro"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_consumo"
+        app:layout_constraintStart_toStartOf="@+id/imageView_consumo"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_consumo" />
+
+    <TextView
+        android:id="@+id/textView_passo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="passo 2 de 3"
+        android:textColor="@color/vermelho"
+        app:layout_constraintEnd_toEndOf="@+id/textView_consumo"
+        app:layout_constraintStart_toStartOf="@+id/textView_consumo"
+        app:layout_constraintTop_toBottomOf="@+id/textView_consumo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:hintEnabled="false"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView_passo2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_consumo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:maxLength="4"
+            android:hint="Ex: 5km"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_tela_consumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Proximo"
+        android:background="@color/azul"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
