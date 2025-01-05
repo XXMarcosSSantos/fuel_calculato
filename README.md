@@ -16,8 +16,8 @@ Este projeto é um aplicativo nativo desenvolvido em Kotlin e tem como objetivo 
 - Activity
 - Views
 - ImageView
-    - Intent
-    - Snackbar
+- Intent
+- Snackbar
 
 # Screenshot
 <img src= "https://github.com/user-attachments/assets/e6ac4fb1-9193-477b-87bf-38f8a2577f87" width=230/>
