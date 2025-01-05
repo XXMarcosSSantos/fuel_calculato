@@ -14,7 +14,8 @@ Este projeto é um aplicativo nativo desenvolvido em Kotlin e tem como objetivo 
 - Button
 - Edittext
 - Activity
-
+- Views
+- ImageView
     - Intent
     - Snackbar
 
